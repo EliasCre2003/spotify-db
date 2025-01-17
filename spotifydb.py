@@ -1,7 +1,5 @@
-import json
 from sqlite3 import connect, Connection
 from pandas import DataFrame
-
 
 
 def process_url(url: str) -> str | None:
